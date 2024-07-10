@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link href="imgs/favicon.png" rel="icon">
+    <title>Quote Generator.</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="area">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="context">
+        <h1>Quote of the Day</h1>
+        <p>
+            <i class="fa-solid fa-angles-down fa-bounce fa-2x"></i>
+            Press the button below to recieve a random quote!
+            <i class="fa-solid fa-angles-down fa-bounce fa-2x"></i>
+        </p>
+        <button id="changeBtn" onclick="generateQuote()"><span>New Quote</span></button>
+        <p id="quoteOutput"></p>
+        <p id="authorOutput"></p>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
